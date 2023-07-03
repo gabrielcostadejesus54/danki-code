@@ -1,0 +1,49 @@
+@media screen and (max-width:900px){
+    /* banner */
+    .banner > .container{
+        display: block;
+        justify-content:initial;
+    }
+
+    .banner{
+        height: auto;
+        padding: 0 0 100px 0;
+    }
+
+    .banner .box{
+        max-width: initial;
+        margin-top: 0;
+        align-self:initial;
+        display: inline-block;
+        margin-top: 100px;
+    }
+
+    form{
+        position: static;
+        top: initial;
+        align-self: initial;
+        margin:80px auto;
+    }
+
+    /* fim banner */
+
+    /* aprenda */
+    .wraper-items{
+        flex-wrap: wrap;
+    }
+    
+    .item{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    /* fim aprenda */
+}
+
+
+@media screen and (max-width:667px){
+    /* aprenda */
+    .item{
+        width: 100%;
+    }
+    /* fim aprenda */
+}
